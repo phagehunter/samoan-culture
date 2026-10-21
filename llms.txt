@@ -1,0 +1,25 @@
+# No Family Is an Island — Study Companion
+
+> A single-page study aid by Curtis Hoffmann for Ilana Gershon's ethnography No Family Is an Island: Cultural Expertise among Samoans in Diaspora (Cornell University Press, 2012), built as a companion for an anthropology course with the Introduction and Chapters 1 to 4 in focus. Distant reading (concept and relationship maps) beside close reading (a chapter-by-chapter guide and scene-level commentary). The book is in copyright and is not reproduced; the guides are original summaries.
+
+Site: https://curtishoffmann.com/samoan-culture/
+Source: https://github.com/phagehunter/samoan-culture
+
+## Four views
+
+- Study / Exam: the book in one idea, the central Ben-versus-Alofa clash (systems carrier versus cultural broker), the cultural/acultural contrast, every starred term grouped by domain, a chapter-by-chapter nutshell.
+- Key Terms: a force-directed concept map of Gershon's analytic terms plus the Samoan and bureaucratic terms the argument turns on; a gold ring marks key terms.
+- People and Systems: who meets whom across families and chiefs, churches, government bureaucracies and the community brokers between them; red dashed edges mark a clash of reflexivities; node size by degree centrality.
+- Narrative Gravity: a stream graph of what each section attends to (families, churches, systems, brokers, theory), with the focus window marked and a setting strip (US, New Zealand, Samoa).
+
+## Controls and data
+
+- Section slider (Introduction to Conclusion), group toggles, playback, commentary panel with summaries, thematic tags and page citations linking into the Guide tab.
+- Data are TypeScript constants in `src/data/`; guides are static per-section JSON in `public/text/`. No backend, no API keys, no map, one URL.
+- Focalization percentages and interaction weights are editorial estimates. Personal names are Gershon's own, mostly pseudonyms.
+
+## Contact
+
+- Author: Curtis Hoffmann, https://curtishoffmann.com/
+- Issues: https://github.com/phagehunter/samoan-culture/issues
+- Sitemap: https://curtishoffmann.com/samoan-culture/sitemap.xml
